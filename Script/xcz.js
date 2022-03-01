@@ -1,11 +1,9 @@
 /*
 [rewrite_local]
-#西窗烛 （by黑黑酱）
-^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body xcz.js
-
+#西窗烛 （by bennyao）
+^https:\/\/lchttpapi\.xczim\.com\/1\.1\/users\/ url script-response-body https://raw.githubusercontent.com/aobenny/quan/main/VIP/xcz.js
 [MITM]
-hostname:avoscloud.com
-
+hostname:lchttpapi.xczim.com
 */
 
 var body = $response.body; 
